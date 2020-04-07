@@ -16,8 +16,8 @@ public class Main6Act extends AppCompatActivity {
 
 
         String sms=getString(R.string.sms);
-        String.format(sms,100,"Ylna");
-        Log.i(Main6Act.this.toString(),content);
+        String s=String.format(sms,100,"Ylna");
+        Log.i(Main6Act.this.toString(),s);
     }
 
 }
