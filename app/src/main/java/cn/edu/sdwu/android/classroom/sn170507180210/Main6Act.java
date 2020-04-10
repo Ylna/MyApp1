@@ -37,9 +37,7 @@ public class Main6Act extends AppCompatActivity {
         Resources resources=getResources();
         //获取整型数组
         int[] intArr=resources.getIntArray(R.array.intArr);
-        for(int i=0;i<intArr.length;i++){
-            Log.i(Main6Act.this.toString(),intArr[i]+"");
-        }
+
         //字符串数组
         String[] strArr=resources.getStringArray(R.array.strArr);
         for (int i=0;i<strArr.length;i++){
