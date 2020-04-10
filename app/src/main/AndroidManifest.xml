@@ -16,14 +16,17 @@
         <activity android:name=".Main3Act" />
         <activity android:name=".Main4Act" />
         <activity android:name=".Main5Act" />
-        <activity android:name=".Main6Act"/>
+        <activity android:name=".Main6Act" />
+        <activity android:name=".Main7Act"></activity>
+        <activity android:name=".Main8Act">
 
-        <activity android:name=".Main7Act">
+        </activity>
+        <activity android:name=".Main9Act">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 
